@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>NoIP.DDNS</id>
+    <version>1.1.0.1</version>
+    <title>NoIP Dynamic DNS Client Library</title>
+    <authors>James Stumme</authors>
+    <owners>James Stumme</owners>
+    <licenseUrl>https://github.com/Stoom/No-IP-DDNS/blob/develop/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/Stoom/No-IP-DDNS</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Client library to No-IP dynamic DNS service</description>
+    <releaseNotes>Added DNS host resolution</releaseNotes>
+    <copyright>Copyright ©  2015</copyright>
+    <language />
+  </metadata>
+</package>

@@ -1,0 +1,2 @@
+netsh http add sslcert ipport=10.1.3.14:10000 certhash=538ab46cf0f93dcf9957fa86cc6cbe9dd191e69c appid={8959F0CE-475B-4E7D-AE2E-85344D36238C}
+netsh http add urlacl url=https://noipdirectfiletransfer.ddns.net:10000/ user=Ageron

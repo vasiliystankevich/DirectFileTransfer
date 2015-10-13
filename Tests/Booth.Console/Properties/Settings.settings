@@ -1,0 +1,27 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Booth.Console.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="NoIpUser" Type="System.String" Scope="User">
+      <Value Profile="(Default)">noip_0002</Value>
+    </Setting>
+    <Setting Name="NoIpPassword" Type="System.String" Scope="User">
+      <Value Profile="(Default)">m2+koy*J,+L7R0hMlJ3{</Value>
+    </Setting>
+    <Setting Name="NoIpUserAgent" Type="System.String" Scope="User">
+      <Value Profile="(Default)">stun server</Value>
+    </Setting>
+    <Setting Name="DescriptionStunServer" Type="System.String" Scope="User">
+      <Value Profile="(Default)">stun server</Value>
+    </Setting>
+    <Setting Name="PrivatePort" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">10000</Value>
+    </Setting>
+    <Setting Name="PublicPort" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">9000</Value>
+    </Setting>
+    <Setting Name="UriScheme" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

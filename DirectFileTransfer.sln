@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{A415F7F1-6EAF-45A8-A82A-02063D57011A}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{5C55199E-6C88-4422-AA89-C633DB90DEA8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InstallationPackage", "InstallationPackage", "{F9660418-2501-4AF6-A254-EAB3102FCBD8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{75E1B0D3-F636-4A67-A7E5-678C00D2A6F8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ExternalLibraries", "ExternalLibraries", "{D27B32D0-FD93-4CA9-9E20-3F10E0909979}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{9219A1C0-66C6-47F9-A364-024C426F5F53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Source\Tests\Tests.csproj", "{2C9C4594-9A3A-482C-A00F-16A139F11F59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonClasses", "Source\CommonClasses\CommonClasses.csproj", "{99A5932E-60EF-4695-B7C2-1E920240E1CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerSTUNLibrary", "Source\ServerSTUNLibrary\ServerSTUNLibrary.csproj", "{8DFF78F2-BBE6-4239-9E6D-3D48B50C809C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Booth.Console", "Tests\Booth.Console\Booth.Console.csproj", "{A4869509-C18E-4D2E-A3BF-127816CFC3FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2C9C4594-9A3A-482C-A00F-16A139F11F59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C9C4594-9A3A-482C-A00F-16A139F11F59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C9C4594-9A3A-482C-A00F-16A139F11F59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C9C4594-9A3A-482C-A00F-16A139F11F59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99A5932E-60EF-4695-B7C2-1E920240E1CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99A5932E-60EF-4695-B7C2-1E920240E1CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99A5932E-60EF-4695-B7C2-1E920240E1CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99A5932E-60EF-4695-B7C2-1E920240E1CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DFF78F2-BBE6-4239-9E6D-3D48B50C809C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DFF78F2-BBE6-4239-9E6D-3D48B50C809C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DFF78F2-BBE6-4239-9E6D-3D48B50C809C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DFF78F2-BBE6-4239-9E6D-3D48B50C809C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4869509-C18E-4D2E-A3BF-127816CFC3FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4869509-C18E-4D2E-A3BF-127816CFC3FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4869509-C18E-4D2E-A3BF-127816CFC3FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4869509-C18E-4D2E-A3BF-127816CFC3FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A4869509-C18E-4D2E-A3BF-127816CFC3FE} = {5C55199E-6C88-4422-AA89-C633DB90DEA8}
+		{2C9C4594-9A3A-482C-A00F-16A139F11F59} = {9219A1C0-66C6-47F9-A364-024C426F5F53}
+		{99A5932E-60EF-4695-B7C2-1E920240E1CB} = {9219A1C0-66C6-47F9-A364-024C426F5F53}
+		{8DFF78F2-BBE6-4239-9E6D-3D48B50C809C} = {9219A1C0-66C6-47F9-A364-024C426F5F53}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		VisualSVNWorkingCopyRoot = .
+	EndGlobalSection
+EndGlobal
